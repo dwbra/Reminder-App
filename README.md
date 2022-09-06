@@ -12,3 +12,4 @@ Resources to do so below:
 
 - https://medium.com/@gattermeier/cronjobs-for-your-node-js-apps-on-macos-20d129b42c0e
 - https://betterprogramming.pub/https-medium-com-ratik96-scheduling-jobs-with-crontab-on-macos-add5a8b26c30
+- https://crontab.guru/every-month
