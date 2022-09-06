@@ -36,4 +36,3 @@ export const googleCalendarInsert = async (req, res) => {
       });
   }
 };
-// googleCalendarInsert();
