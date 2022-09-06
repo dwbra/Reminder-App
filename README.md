@@ -6,7 +6,7 @@ I wanted a way to automate reminders for myself to basically be a better human. 
 
 As I wanted this to be random I created a few additional functions to handle this. However you could easily manually set dates if you wanted to have one monthly reminder run.
 
-### Last step that is required on your local machine would be to set up a cronjob that runs the index.js file on the frequency that you need. For me that would be the first day of each month.
+#### Last step that is required on your local machine would be to set up a cronjob that runs the index.js file on the frequency that you need. For me that would be the first day of each month.
 
 Resources to do so below:
 
