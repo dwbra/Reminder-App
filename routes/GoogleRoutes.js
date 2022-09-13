@@ -6,18 +6,18 @@ import { googleCalendarInsert } from "../controllers/GoogleController.js";
 const router = express.Router();
 
 //create a get request pathway for the frontend to pull users playlists
-// router.get("/", googleCalendarInsert);
+router.get("/", googleCalendarInsert);
 
-router.get(
-  "/",
-  (req, res, next) => {
-    googleCalendarInsert();
-    next();
-  },
-  () => {
-    // process.exitCode = 1;
-    process.exit();
-  }
-);
+// router.get(
+//   "/",
+//   (req, res, next) => {
+//     googleCalendarInsert();
+//     next();
+//   },
+//   () => {
+//     // process.exitCode = 1;
+//     process.exit();
+//   }
+// );
 
 export default router;
