@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import process from "node:process";
 
 import GoogleRoutes from "./routes/GoogleRoutes.js";
 
@@ -31,12 +32,12 @@ const server = app.listen(PORT, () => {
 // }
 // setReminders(server);
 
-// fetch("http://localhost:9001")
-//   .then(response => {
-//     console.log(response);
-//   })
-//   .catch(err => {
-//     console.log("Unable to fetch -", err);
-//   });
+fetch("http://localhost:9001")
+  .then(response => {
+    console.log(response);
+  })
+  .catch(err => {
+    console.log("Unable to fetch -", err);
+  });
 
 // server.close();
